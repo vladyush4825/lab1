@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особиста сторінка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .bio img {
+            width: 150px;
+            height: 150px;
+            background: #ccc;
+            display: block;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+            border-top: 2px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .news-item {
+            margin-bottom: 20px;
+        }
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Особиста сторінка (блог) ПІБ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="rozklad.html">Розклад</a></li>
+                <li><a href="photo.html">Фотоблог</a></li>
+                <li><a href="news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="bio">
+            <h2>Моя біографія</h2>
+            <img src="src/assets/images/placeholder.png" alt="Фото">
+            <p>Підпис</p>
+            <p>
+                Lorem ipsum dolor sit amet, maiores ornare ac fermentum, imperdiet ut vivamus a, nam lectus at nunc. Quam euismod sem, semper et potenti pellentesque egestas. In eget sapien est, ad duis vestibulum rhoncus.
+            </p>
+        </section>
+        <section class="hobbies">
+            <h2>Мої захоплення</h2>
+            <ul>
+                <li>Читання книг</li>
+                <li>Подорожі</li>
+                <li>Програмування</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>Copyright 2015. Всі права захищені. Напишіть мені!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .news-item {
+            display: flex;
+            gap: 15px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .news-item img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .news-content {
+            flex: 1;
+        }
+        .news-content h3 {
+            margin: 0 0 5px;
+        }
+        .news-content p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+            border-top: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Новини</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="rozklad.html">Розклад</a></li>
+                <li><a href="photo.html">Фотоблог</a></li>
+                <li><a href="news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Останні новини</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <img src="src/assets/images/news1.jpg" alt="Новина 1">
+                <div class="news-content">
+                    <h3><a href="https://example.com/news1" target="_blank">Заголовок новини 1</a></h3>
+                    <p><small>Дата публікації: 2024-12-01</small></p>
+                    <p>Короткий опис новини 1. <a href="https://example.com/news1" target="_blank">Читати далі</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="src/assets/images/news2.jpg" alt="Новина 2">
+                <div class="news-content">
+                    <h3><a href="https://example.com/news2" target="_blank">Заголовок новини 2</a></h3>
+                    <p><small>Дата публікації: 2024-12-05</small></p>
+                    <p>Короткий опис новини 2. <a href="https://example.com/news2" target="_blank">Читати далі</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="src/assets/images/news3.jpg" alt="Новина 3">
+                <div class="news-content">
+                    <h3><a href="https://example.com/news3" target="_blank">Заголовок новини 3</a></h3>
+                    <p><small>Дата публікації: 2024-12-10</small></p>
+                    <p>Короткий опис новини 3. <a href="https://example.com/news3" target="_blank">Читати далі</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="src/assets/images/news4.jpg" alt="Новина 4">
+                <div class="news-content">
+                    <h3><a href="https://example.com/news4" target="_blank">Заголовок новини 4</a></h3>
+                    <p><small>Дата публікації: 2024-12-15</small></p>
+                    <p>Короткий опис новини 4. <a href="https://example.com/news4" target="_blank">Читати далі</a></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="src/assets/images/news5.jpg" alt="Новина 5">
+                <div class="news-content">
+                    <h3><a href="https://example.com/news5" target="_blank">Заголовок новини 5</a></h3>
+                    <p><small>Дата публікації: 2024-12-20</small></p>
+                    <p>Короткий опис новини 5. <a href="https://example.com/news5" target="_blank">Читати далі</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2015. Всі права захищені. Напишіть мені!</p>
+    </footer>
+</body>
+</html>

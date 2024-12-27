@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотоблог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+        }
+        .caption {
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+            border-top: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Фотоблог</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="rozklad.html">Розклад</a></li>
+                <li><a href="photo.html">Фотоблог</a></li>
+                <li><a href="news.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Галерея</h2>
+        <div class="gallery">
+            <a href="src/assets/images/photo1.jpg" target="_blank">
+                <img src="src/assets/images/photo1_thumb.jpg" alt="Photo 1">
+                <div class="caption">Photo 1 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo2.jpg" target="_blank">
+                <img src="src/assets/images/photo2_thumb.jpg" alt="Photo 2">
+                <div class="caption">Photo 2 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo3.jpg" target="_blank">
+                <img src="src/assets/images/photo3_thumb.jpg" alt="Photo 3">
+                <div class="caption">Photo 3 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo4.jpg" target="_blank">
+                <img src="src/assets/images/photo4_thumb.jpg" alt="Photo 4">
+                <div class="caption">Photo 4 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo5.jpg" target="_blank">
+                <img src="src/assets/images/photo5_thumb.jpg" alt="Photo 5">
+                <div class="caption">Photo 5 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo6.jpg" target="_blank">
+                <img src="src/assets/images/photo6_thumb.jpg" alt="Photo 6">
+                <div class="caption">Photo 6 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo7.jpg" target="_blank">
+                <img src="src/assets/images/photo7_thumb.jpg" alt="Photo 7">
+                <div class="caption">Photo 7 (1920x1080)</div>
+            </a>
+            <a href="src/assets/images/photo8.jpg" target="_blank">
+                <img src="src/assets/images/photo8_thumb.jpg" alt="Photo 8">
+                <div class="caption">Photo 8 (1920x1080)</div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2015. Всі права захищені. Напишіть мені!</p>
+    </footer>
+</body>
+</html>
